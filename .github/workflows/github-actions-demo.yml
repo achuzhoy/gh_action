@@ -21,7 +21,7 @@ jobs:
 
   deploy1-job:
     needs: Explore-GitHub-Actions
-    runs-on: ${{github.event.inputs.RUNNER}}
+    runs-on: laptop
     steps:
       - name: Verify spoke installation
         run: |
